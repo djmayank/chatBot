@@ -89,55 +89,51 @@ function sendGenericMessage(sender) {
             "payload": {
                 "template_type": "generic",
                 "elements": [{
-                    "title": "Ai Chat Bot Communities",
-                    "subtitle": "Communities to Follow",
-                    "image_url": "http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/uploads/2016/04/chatbot-930x659.jpg",
+                    "title": "Our Services",
+                    "subtitle": "Entertaining you at our best.",
+                    "image_url": "https://steemitimages.com/DQmWiKbVoJEqsqfgWKAKB8iErQmjjFueysv1rynoHnk2za4/14-COYOTE-09636-Entertainment-Header-1000x356-72dpi.jpg",
                     "buttons": [{
                         "type": "web_url",
-                        "url": "https://www.facebook.com/groups/aichatbots/",
-                        "title": "FB Chatbot Group"
-                    }, {
-                        "type": "web_url",
-                        "url": "https://www.reddit.com/r/Chat_Bots/",
-                        "title": "Chatbots on Reddit"
+                        "url": "https://additionalknowledge.wordpress.com/",
+                        "title": "Our Blog"
                     },{
-                        "type": "web_url",
-                        "url": "https://twitter.com/aichatbots",
-                        "title": "Chatbots on Twitter"
+                       "type": "postback",
+                        "title": "Why connecting us?",
+                        "payload": "We will make your life full of entertainment.",
                     }],
                 }, {
-                    "title": "Chatbots FAQ",
+                    "title": "FAQ",
                     "subtitle": "Aking the Deep Questions",
-                    "image_url": "https://tctechcrunch2011.files.wordpress.com/2016/04/facebook-chatbots.png?w=738",
+                    "image_url": "https://searchengineland.com/figz/wp-content/seloads/2015/06/question-ask-faq-raise-hand-ss-1920.jpg",
                     "buttons": [{
                         "type": "postback",
-                        "title": "What's the benefit?",
-                        "payload": "Chatbots make content interactive instead of static",
+                        "title": "What are the queries?",
+                        "payload": "You can message us anytime.",
                     },{
                         "type": "postback",
-                        "title": "What can Chatbots do",
-                        "payload": "One day Chatbots will control the Internet of Things! You will be able to control your homes temperature with a text",
+                        "title": "How can we resolve your problems?",
+                        "payload": "We can message you here only and if you want more quick response you can contact us via blog link too.",
                     }, {
-                        "type": "postback",
-                        "title": "The Future",
-                        "payload": "Chatbots are fun! One day your BFF might be a Chatbot",
+                         "type": "web_url",
+                        "url": "https://additionalknowledge.wordpress.com/contact/",
+                        "title": "Contact Us"
                     }],
                 },  {
-                    "title": "Learning More",
-                    "subtitle": "Aking the Deep Questions",
-                    "image_url": "http://www.brandknewmag.com/wp-content/uploads/2015/12/cortana.jpg",
+                    "title": "Want our logos accessories",
+                    "subtitle": "We have high end collection of our logos based tees and accessories",
+                    "image_url": "https://img.shirtcity.com/article_preview/315x315/eeeeee/p1c19s1a1_d1i117584p0z5r1c2f2.jpg",
                     "buttons": [{
                         "type": "postback",
-                        "title": "AIML",
-                        "payload": "Checkout Artificial Intelligence Mark Up Language. Its easier than you think!",
+                        "title": "Why accessories?",
+                        "payload": "Checkout our new accessories, if you support us its easier than you think!",
                     },{
                         "type": "postback",
-                        "title": "Machine Learning",
-                        "payload": "Use python to teach your maching in 16D space in 15min",
+                        "title": "How much it costs?",
+                        "payload": "It costs nearly 500 rs for every accessory and must be in your budget.",
                     }, {
                         "type": "postback",
-                        "title": "Communities",
-                        "payload": "Online communities & Meetups are the best way to stay ahead of the curve!",
+                        "title": "What are additional benifits?",
+                        "payload": "You will also be given more priority than others!",
                     }],
                 }]  
             } 
